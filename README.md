@@ -42,6 +42,12 @@ Validate:
 - [wait-discipline](docs/wait-discipline.md)
 - [batch-concurrency](docs/batch-concurrency.md)
 
+## Evaluation Tasks
+
+- [timeboxed-delivery evals](docs/timeboxed-delivery-evals.md)
+- [wait-discipline evals](docs/wait-discipline-evals.md)
+- [batch-concurrency evals](docs/batch-concurrency-evals.md)
+
 ## Plugin Shape
 
 This repo includes:
