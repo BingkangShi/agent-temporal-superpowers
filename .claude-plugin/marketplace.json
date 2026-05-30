@@ -1,13 +1,13 @@
 {
-  "name": "agent-temporal-superpowers-dev",
-  "description": "Development marketplace for Agent Temporal Superpowers.",
+  "name": "agent-tempo-dev",
+  "description": "Development marketplace for Tempo.",
   "owner": {
     "name": "BingkangShi"
   },
   "plugins": [
     {
-      "name": "agent-temporal-superpowers",
-      "description": "Skills for timeboxed delivery, disciplined waiting, and high-throughput execution.",
+      "name": "agent-tempo",
+      "description": "Short skills for deadline pacing, disciplined waiting, and high-throughput execution.",
       "version": "0.1.0",
       "source": "./",
       "author": {

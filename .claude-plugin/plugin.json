@@ -1,12 +1,12 @@
 {
-  "name": "agent-temporal-superpowers",
-  "description": "Skills for timeboxed delivery, disciplined waiting, and high-throughput agent execution.",
+  "name": "agent-tempo",
+  "description": "Short skills for deadline pacing, disciplined waiting, and high-throughput agent execution.",
   "version": "0.1.0",
   "author": {
     "name": "BingkangShi"
   },
-  "homepage": "https://github.com/BingkangShi/agent-temporal-superpowers",
-  "repository": "https://github.com/BingkangShi/agent-temporal-superpowers",
+  "homepage": "https://github.com/BingkangShi/agent-tempo",
+  "repository": "https://github.com/BingkangShi/agent-tempo",
   "license": "MIT",
   "keywords": [
     "skills",

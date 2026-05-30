@@ -1,6 +1,6 @@
-# wait-discipline
+# wait
 
-[English](wait-discipline.md)
+[English](wait.md)
 
 ## 用途
 

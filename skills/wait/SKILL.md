@@ -1,6 +1,6 @@
 ---
-name: wait-discipline
-description: Use when writing, reviewing, or running code that waits, sleeps, polls, retries, watches services, handles queues, rate limits, dev server startup, async jobs, or mentions sleep 300/sleep 500/不要等待/不要浪费时间. Enforces bounded condition-based waiting using shared JSON defaults.
+name: wait
+description: Use when the user invokes /wait or when writing, reviewing, or running code that waits, sleeps, polls, retries, watches services, handles queues, rate limits, dev server startup, async jobs, or mentions sleep 300/sleep 500/不要等待/不要浪费时间. Enforces bounded condition-based waiting using shared JSON defaults.
 ---
 
 # Wait Discipline

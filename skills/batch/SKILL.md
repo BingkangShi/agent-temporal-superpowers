@@ -1,6 +1,6 @@
 ---
-name: batch-concurrency
-description: Use for tasks with many independent samples, remote model API calls, HTTP requests, videos, texts, files, embeddings, evaluations, dataset processing, CPU-heavy loops, multiprocessing, async concurrency, throughput optimization, RPM/TPM limits, or resource utilization. Guides bounded concurrency, multiprocessing, result ordering, retries, and rate-limit-aware remote model calls.
+name: batch
+description: Use when the user invokes /batch or for tasks with many independent samples, remote model API calls, HTTP requests, videos, texts, files, embeddings, evaluations, dataset processing, CPU-heavy loops, multiprocessing, async concurrency, throughput optimization, RPM/TPM limits, or resource utilization. Guides bounded concurrency, multiprocessing, result ordering, retries, and rate-limit-aware remote model calls.
 ---
 
 # Batch Concurrency

@@ -1,6 +1,6 @@
-# timeboxed-delivery
+# due
 
-[中文版](timeboxed-delivery.zh.md)
+[中文版](due.zh.md)
 
 ## Purpose
 

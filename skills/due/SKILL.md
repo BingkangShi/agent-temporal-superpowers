@@ -1,6 +1,6 @@
 ---
-name: timeboxed-delivery
-description: Use when the user gives a deadline, time budget, impatience constraint, or phrases like /timebox, /timeboxed, within N minutes, report progress by, ddl, 限定时间, 限时完成, N分钟内完成, 不要超时. Guides the agent to finish or report progress before the deadline, ideally with a main-agent monitor and a worker subagent when the app supports subagents.
+name: due
+description: Use when the user invokes /due or gives a deadline, time budget, impatience constraint, or phrases like /timebox, /timeboxed, within N minutes, report progress by, ddl, 限定时间, 限时完成, N分钟内完成, 不要超时. Guides the agent to finish or report progress before the deadline, ideally with a main-agent monitor and a worker subagent when the app supports subagents.
 ---
 
 # Timeboxed Delivery

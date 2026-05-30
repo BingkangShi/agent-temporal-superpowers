@@ -1,12 +1,12 @@
-# Agent Temporal Superpowers
+# Tempo
 
 [中文版](README.zh.md)
 
 A small Superpowers-style skill suite for three related agent behaviors:
 
-- `timeboxed-delivery`: respect user DDLs and report before time runs out.
-- `wait-discipline`: avoid pointless sleeps and require bounded condition-based waits.
-- `batch-concurrency`: use bounded async, RPM/TPM-aware remote model calls, and multiprocessing for batch work.
+- `due`: respect user DDLs and report before time runs out.
+- `wait`: avoid pointless sleeps and require bounded condition-based waits.
+- `batch`: use bounded async, RPM/TPM-aware remote model calls, and multiprocessing for batch work.
 
 All three skills share:
 
@@ -32,9 +32,9 @@ For Claude-style skill directories:
 
 ## Skill Docs
 
-- [timeboxed-delivery](docs/timeboxed-delivery.md)
-- [wait-discipline](docs/wait-discipline.md)
-- [batch-concurrency](docs/batch-concurrency.md)
+- [due](docs/due.md)
+- [wait](docs/wait.md)
+- [batch](docs/batch.md)
 
 ## Validation
 

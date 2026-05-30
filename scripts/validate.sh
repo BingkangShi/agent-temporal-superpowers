@@ -11,9 +11,9 @@ python3 -m json.tool "$ROOT/.claude-plugin/marketplace.json" >/dev/null
 python3 -m json.tool "$ROOT/skills/_shared/agent-execution-defaults.json" >/dev/null
 
 if [[ -f "$VALIDATOR" ]] && python3 -c 'import yaml' >/dev/null 2>&1; then
-  python3 "$VALIDATOR" "$ROOT/skills/timeboxed-delivery"
-  python3 "$VALIDATOR" "$ROOT/skills/wait-discipline"
-  python3 "$VALIDATOR" "$ROOT/skills/batch-concurrency"
+  python3 "$VALIDATOR" "$ROOT/skills/due"
+  python3 "$VALIDATOR" "$ROOT/skills/wait"
+  python3 "$VALIDATOR" "$ROOT/skills/batch"
 else
   python3 - "$ROOT" <<'PY'
 from pathlib import Path
@@ -21,7 +21,7 @@ import re
 import sys
 
 root = Path(sys.argv[1])
-for skill in ("timeboxed-delivery", "wait-discipline", "batch-concurrency"):
+for skill in ("due", "wait", "batch"):
     path = root / "skills" / skill / "SKILL.md"
     text = path.read_text(encoding="utf-8")
     if not text.startswith("---\n"):

@@ -1,6 +1,6 @@
-# wait-discipline
+# wait
 
-[中文版](wait-discipline.zh.md)
+[中文版](wait.zh.md)
 
 ## Purpose
 

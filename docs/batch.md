@@ -1,6 +1,6 @@
-# batch-concurrency
+# batch
 
-[中文版](batch-concurrency.zh.md)
+[中文版](batch.zh.md)
 
 ## Purpose
 
