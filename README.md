@@ -48,6 +48,15 @@ Validate:
 - [wait-discipline evals](docs/wait-discipline-evals.md)
 - [batch-concurrency evals](docs/batch-concurrency-evals.md)
 
+## Testing
+
+- [Test plan](docs/test-plan.md)
+
+```bash
+python3 -m unittest discover -s tests -v
+./scripts/validate.sh
+```
+
 ## Plugin Shape
 
 This repo includes:
@@ -59,3 +68,5 @@ This repo includes:
 - `skills/_shared/`: shared JSON defaults.
 - `docs/`: concise usage and configuration docs for each skill.
 - `scripts/`: local install and validation helpers.
+- `tests/`: unit tests for manifests, skills, docs, defaults, and scripts.
+- `.github/workflows/`: CI configuration.
