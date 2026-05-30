@@ -30,30 +30,15 @@ For Claude-style skill directories:
 ./scripts/install-claude-skills.sh
 ```
 
-Validate:
-
-```bash
-./scripts/validate.sh
-```
-
 ## Skill Docs
 
 - [timeboxed-delivery](docs/timeboxed-delivery.md)
 - [wait-discipline](docs/wait-discipline.md)
 - [batch-concurrency](docs/batch-concurrency.md)
 
-## Evaluation Tasks
-
-- [timeboxed-delivery evals](docs/timeboxed-delivery-evals.md)
-- [wait-discipline evals](docs/wait-discipline-evals.md)
-- [batch-concurrency evals](docs/batch-concurrency-evals.md)
-
-## Testing
-
-- [Test plan](docs/test-plan.md)
+## Validation
 
 ```bash
-python3 -m unittest discover -s tests -v
 ./scripts/validate.sh
 ```
 
@@ -68,5 +53,3 @@ This repo includes:
 - `skills/_shared/`: shared JSON defaults.
 - `docs/`: concise usage and configuration docs for each skill.
 - `scripts/`: local install and validation helpers.
-- `tests/`: unit tests for manifests, skills, docs, defaults, and scripts.
-- `.github/workflows/`: CI configuration.
