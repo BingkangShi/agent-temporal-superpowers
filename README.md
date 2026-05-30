@@ -34,6 +34,12 @@ Validate:
 ./scripts/validate.sh
 ```
 
+## Skill Docs
+
+- [timeboxed-delivery](docs/timeboxed-delivery.md)
+- [wait-discipline](docs/wait-discipline.md)
+- [batch-concurrency](docs/batch-concurrency.md)
+
 ## Plugin Shape
 
 This repo includes:
@@ -43,6 +49,5 @@ This repo includes:
 - `.claude-plugin/marketplace.json`: local marketplace metadata.
 - `skills/`: the actual skills.
 - `skills/_shared/`: shared JSON defaults.
+- `docs/`: concise usage and configuration docs for each skill.
 - `scripts/`: local install and validation helpers.
-
-This intentionally imitates the useful part of `obra/superpowers` without copying its full release, hook, test, and marketplace infrastructure.
