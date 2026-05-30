@@ -5,6 +5,8 @@ description: Use when writing, reviewing, or running code that waits, sleeps, po
 
 # Wait Discipline
 
+[中文版](SKILL.zh.md)
+
 ## Shared Defaults
 
 Read `../_shared/agent-execution-defaults.json` first. Use `wait_discipline` defaults unless task context or user instructions require different values.

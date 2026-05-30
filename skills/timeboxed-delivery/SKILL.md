@@ -5,6 +5,8 @@ description: Use when the user gives a deadline, time budget, impatience constra
 
 # Timeboxed Delivery
 
+[中文版](SKILL.zh.md)
+
 ## Shared Defaults
 
 Read `../_shared/agent-execution-defaults.json` first. Use `timeboxed_delivery` defaults unless the user gives stricter or looser parameters.

@@ -1,5 +1,7 @@
 # wait-discipline
 
+[中文版](wait-discipline.zh.md)
+
 ## Purpose
 
 Use this skill when code or agent actions involve waiting, sleeping, polling, retries, queue checks, service startup, or rate-limit delays. It prevents pointless long waits such as `sleep 300` without a condition.

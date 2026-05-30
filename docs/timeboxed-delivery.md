@@ -1,5 +1,7 @@
 # timeboxed-delivery
 
+[中文版](timeboxed-delivery.zh.md)
+
 ## Purpose
 
 Use this skill when the user gives a deadline, time budget, DDL, or progress-report requirement. It helps the agent treat time as a hard requirement instead of silently working past the user's limit.

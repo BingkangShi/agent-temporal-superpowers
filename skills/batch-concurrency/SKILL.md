@@ -5,6 +5,8 @@ description: Use for tasks with many independent samples, remote model API calls
 
 # Batch Concurrency
 
+[中文版](SKILL.zh.md)
+
 ## Shared Defaults
 
 Read `../_shared/agent-execution-defaults.json` first. Use `remote_model_api`, `parallel_programming`, and `async_programming` defaults unless the user or API provider gives specific limits.

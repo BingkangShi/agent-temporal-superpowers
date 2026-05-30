@@ -1,5 +1,7 @@
 # Agent Temporal Superpowers
 
+[中文版](README.zh.md)
+
 A small Superpowers-style skill suite for three related agent behaviors:
 
 - `timeboxed-delivery`: respect user DDLs and report before time runs out.

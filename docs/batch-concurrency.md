@@ -1,5 +1,7 @@
 # batch-concurrency
 
+[中文版](batch-concurrency.zh.md)
+
 ## Purpose
 
 Use this skill for many independent items: remote model API calls, text/video samples, embeddings, HTTP requests, file batches, evaluations, CPU-heavy loops, or multiprocessing tasks.
