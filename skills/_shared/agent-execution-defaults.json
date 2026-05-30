@@ -1,0 +1,55 @@
+{
+  "schema_version": "0.1.0",
+  "timeboxed_delivery": {
+    "default_deadline_warning_seconds": 30,
+    "short_task_response_buffer_seconds": 20,
+    "medium_task_response_buffer_seconds": 60,
+    "long_task_response_buffer_fraction": 0.1,
+    "long_task_response_buffer_max_seconds": 300,
+    "max_silent_work_seconds": 30,
+    "prefer_subagent_execution_when_available": true,
+    "main_agent_role": "monitor deadline, collect progress, and respond before ddl",
+    "worker_agent_role": "execute the concrete task and emit checkpoints"
+  },
+  "wait_discipline": {
+    "max_unconditional_sleep_seconds": 3,
+    "max_sleep_seconds_without_user_or_api_reason": 10,
+    "default_local_poll_interval_seconds": 1,
+    "max_local_poll_interval_seconds": 3,
+    "default_wait_timeout_seconds": 30,
+    "require_condition_check_between_sleeps": true,
+    "require_overall_timeout_for_polling": true,
+    "ban_hidden_multi_minute_sleep": true
+  },
+  "remote_model_api": {
+    "default_concurrency": 8,
+    "max_concurrency_without_user_approval": 32,
+    "default_rpm_limit": 1000,
+    "default_tpm_limit": 200000,
+    "token_bucket_interval_seconds": 60,
+    "default_prompt_token_estimate": 1000,
+    "default_completion_token_estimate": 1000,
+    "token_safety_margin": 1.15,
+    "retry": {
+      "max_attempts": 5,
+      "initial_backoff_seconds": 1,
+      "max_backoff_seconds": 30,
+      "jitter_fraction": 0.2
+    },
+    "persist_partial_results_every_n_items": 20,
+    "preserve_order": true
+  },
+  "parallel_programming": {
+    "default_processes": 16,
+    "prefer_multiprocessing_for_cpu_bound_python": true,
+    "prefer_lock_free_result_collection": true,
+    "leave_cpu_headroom_processes": 1,
+    "chunk_size_strategy": "start with ceil(items / (processes * 4)) and tune after measurement"
+  },
+  "async_programming": {
+    "default_concurrency": 16,
+    "preserve_order_with_indexes": true,
+    "capture_per_item_errors": true,
+    "emit_progress": true
+  }
+}

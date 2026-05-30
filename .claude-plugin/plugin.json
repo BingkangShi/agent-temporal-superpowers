@@ -1,0 +1,18 @@
+{
+  "name": "agent-temporal-superpowers",
+  "description": "Skills for timeboxed delivery, disciplined waiting, and high-throughput agent execution.",
+  "version": "0.1.0",
+  "author": {
+    "name": "BingkangShi"
+  },
+  "homepage": "https://github.com/BingkangShi/agent-temporal-superpowers",
+  "repository": "https://github.com/BingkangShi/agent-temporal-superpowers",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "timebox",
+    "concurrency",
+    "parallelism",
+    "rate-limits"
+  ]
+}

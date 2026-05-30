@@ -1,0 +1,39 @@
+{
+  "name": "agent-temporal-superpowers",
+  "version": "0.1.0",
+  "description": "A skill suite for timeboxed delivery, disciplined waiting, and high-throughput agent execution.",
+  "author": {
+    "name": "BingkangShi"
+  },
+  "homepage": "https://github.com/BingkangShi/agent-temporal-superpowers",
+  "repository": "https://github.com/BingkangShi/agent-temporal-superpowers",
+  "license": "MIT",
+  "keywords": [
+    "timebox",
+    "deadline",
+    "sleep-policy",
+    "concurrency",
+    "parallelism",
+    "rate-limits",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Temporal Superpowers",
+    "shortDescription": "Time, waiting, and throughput skills for coding agents",
+    "longDescription": "Use Agent Temporal Superpowers to guide coding agents through deadline-aware delivery, bounded waits, and efficient concurrent or parallel execution.",
+    "developerName": "BingkangShi",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use the relevant Agent Temporal Superpowers skill for this task.",
+      "Complete this within 5 minutes and report useful progress before the deadline.",
+      "Process these samples with bounded concurrency and preserve output order."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
